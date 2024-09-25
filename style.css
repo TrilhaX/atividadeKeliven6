@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+img{
+    margin-top: 50px;
+    width: 80vw;
+    height: 80vh;
+}
+
+.menu{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
